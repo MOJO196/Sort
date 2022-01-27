@@ -1,8 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        int[] array = ArrayManager.New(50000, 100);
+        int[] array = ArrayManager.New(4, 100);
 
-        MergeSort.mergeSort(array, 0, array.length-1);
+        //BubbleSort.Sort(array);
+        //MergeSort.Sort(array, 0, array.length-1);
+        //BogoSort.Sort(array);
+
         //ArrayManager.Print(array);
     }
 }

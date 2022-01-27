@@ -1,7 +1,14 @@
 public class MergeSort extends Timer{
 
-    public static void mergeSort(int[] array, int low, int high) {
+    public static void  Sort(int[] array, int low, int high) {
         startTimer();
+
+        mergeSort(array, low, high);
+
+        System.out.println(Long.toString(stopTimer()));
+    }
+
+    public static void mergeSort(int[] array, int low, int high) {
 
         if (high <= low) return;
 
@@ -10,7 +17,6 @@ public class MergeSort extends Timer{
         mergeSort(array, mid+1, high);
         merge(array, low, mid, high);
 
-        System.out.println(Long.toString(stopTimer()));
     }
 
     public static void merge(int[] array, int low, int mid, int high) {

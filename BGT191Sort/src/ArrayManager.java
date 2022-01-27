@@ -1,6 +1,5 @@
-import java.util.concurrent.ThreadLocalRandom;
+public class ArrayManager {
 
-public class Array {
     public static int[] New(int length, int max) {
         int[] array = new int[length];
 
@@ -10,7 +9,6 @@ public class Array {
 
         return array;
     }
-
 
     public static void Print(int[] array) {
         for (int i = 0; i < array.length; i++) {

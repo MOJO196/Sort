@@ -1,6 +1,8 @@
-public class BubbleSort {
+public class BubbleSort extends Timer{
 
     public static int[] Sort(int[] array) {
+
+        startTimer();
 
         int smaller;
         int bigger;
@@ -19,6 +21,8 @@ public class BubbleSort {
                 }
             }
         }
+
+        System.out.println(Long.toString(stopTimer()));
 
         return array;
     }

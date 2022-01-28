@@ -14,7 +14,6 @@ public class MergeSort extends Timer{
         mergeSort(array, low, mid);
         mergeSort(array, mid+1, high);
         merge(array, low, mid, high);
-
     }
 
     public static void merge(int[] array, int low, int mid, int high) {
@@ -23,10 +22,8 @@ public class MergeSort extends Timer{
         int rightArray[] = new int[high - mid];
 
         // Copying our subarrays into temporaries
-        for (int i = 0; i < leftArray.length; i++)
-            leftArray[i] = array[low + i];
-        for (int i = 0; i < rightArray.length; i++)
-            rightArray[i] = array[mid + i + 1];
+        for (int i = 0; i < leftArray.length; i++) leftArray[i] = array[low + i];
+        for (int i = 0; i < rightArray.length; i++) rightArray[i] = array[mid + i + 1];
 
         // Iterators containing current index of temp subarrays
         int leftIndex = 0;

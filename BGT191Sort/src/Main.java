@@ -1,12 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-
         //cases
         //int[] array = ArrayManager.DefaultCase(10000000);
         //int[] array = ArrayManager.BestCase(10000000);
-        //int[] array = ArrayManager.WorstCase(20);
+        //int[] array = ArrayManager.WorstCase(100000000);
 
-        //Debug Array
+        //debug array
         //ArrayManager.Print(array);
         //System.out.println("\n----- \n");
 
@@ -15,13 +14,11 @@ public class Main {
         //MergeSort.Sort(array, 0, array.length-1);
         //CountingSort.Sort(array, array.length);
 
-        //Bogo
+        //bogo
         //int[] array = ArrayManager.DefaultCase(10);
         //BogoSort.Sort(array); //array length should be lower than 12!
 
-        //Debug
+        //debug
         //ArrayManager.Print(array);
     }
 }
-
-//https://www.programiz.com/dsa

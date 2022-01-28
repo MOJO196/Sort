@@ -1,12 +1,29 @@
 public class ArrayManager {
 
-    public static int[] New(int length, int max) {
+    public static int[] DefaultCase(int length) {
         int[] array = new int[length];
 
         for (int i = 0; i < length; i++) {
-            array[i] = 0 + (int) (Math.random() * max);
+            array[i] = 0 + (int) (Math.random() * length);
         }
+        return array;
+    }
 
+    public static int[] BestCase(int length) {
+        int[] array = new int[length];
+
+        for (int i = 0; i < length; i++) {
+            array[i] = i;
+        }
+        return array;
+    }
+
+    public static int[] WorstCase(int length) {
+        int[] array = new int[length];
+
+        for (int i = 0; i < length; i++) {
+            array[i] = length-i-1;
+        }
         return array;
     }
 

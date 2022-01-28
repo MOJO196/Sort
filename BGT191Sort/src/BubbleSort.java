@@ -21,9 +21,7 @@ public class BubbleSort extends Timer{
                 }
             }
         }
-
         System.out.println(Long.toString(stopTimer()));
-
         return array;
     }
 }

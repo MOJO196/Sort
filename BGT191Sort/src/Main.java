@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
         //cases
         //int[] array = ArrayManager.DefaultCase(10000000);
-        int[] array = ArrayManager.BestCase(100000000);
+        int[] array = ArrayManager.BestCase(100);
         //int[] array = ArrayManager.WorstCase(100000000);
 
         //debug array
         //ArrayManager.Print(array);
         //System.out.println("\n----- \n");
 
-        BinarySearch.Search(array, 56);
+        BinarySearch.Search(array, 16);
 
         //sorting-algorithms
         //BubbleSort.Sort(array);

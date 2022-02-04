@@ -9,8 +9,6 @@ public class Main {
         //ArrayManager.Print(array);
         //System.out.println("\n----- \n");
 
-        BinarySearch.Search(array, 16);
-
         //sorting-algorithms
         //BubbleSort.Sort(array);
         //MergeSort.Sort(array, 0, array.length-1);
@@ -19,6 +17,10 @@ public class Main {
         //bogo
         //int[] array = ArrayManager.DefaultCase(10);
         //BogoSort.Sort(array); //array length should be lower than 12!
+
+        //searching
+        //System.out.println(Search.LinarSearch(array, 99));
+        //System.out.println(Search.BinarySearch(array, 99));
 
         //debug
         //ArrayManager.Print(array);
